@@ -2,10 +2,10 @@
 'https://plantuml.com/use-case-diagram
 
 
-:new actor: --> (Identificarse)
-:new actor: --> (Pagar)
-:new actor: --> (Elegir mensajero)
-:new actor: --> (Confirmar)
+:new actor: -- (Identificarse)
+:new actor: -- (Pagar)
+:new actor: -- (Elegir mensajero)
+:new actor: -- (Confirmar)
 (Registrarse) .> (Identificarse):<<extend>>
 (Pagar con tarjeta) -|> (Pagar)
 (Pagar con transferencia) -|> (Pagar)
